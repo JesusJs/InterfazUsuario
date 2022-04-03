@@ -1,0 +1,78 @@
+
+.navbar{
+  .container-fluid{
+
+      .navbar-toggler{
+        color: white;
+        border: none;
+
+        &:focus{
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        border: none;
+        }
+        .material-icons-outlined{
+          margin-top: -10.5rem;
+          color: white;
+          border: none;
+          font-size: 24px;
+
+          &:focus{
+           text-decoration: none;
+          }
+        }
+      }
+      .navbar-toggler[_ngcontent-grw-c59]{
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+        border: none;
+      }
+    .offcanvas{
+      background-color: #393FD0;
+      padding: 2rem;
+      .offcanvas-header{
+        .offcanvas-title{
+          font-size: 140px;
+          margin: auto;
+          color: white;
+          font-weight: 900;
+        }
+        .navbar-toggler{
+          margin-bottom: 11rem;
+          .material-icons-outlined{
+
+    font-size: 24px;
+
+          }
+        }
+
+      }
+      .offcanvas-body{
+        padding: 0;
+        .navbar-nav{
+          .nav-item{
+            .nav-link {
+              color: #ffffffa3 !important;
+              font-family: 'Dosis';
+              font-style: normal;
+              font-weight: 700;
+              &.active{
+              color: white !important;
+              font-family: 'Dosis';
+              font-style: normal;
+              font-weight: 600;
+
+            }
+            span{
+              width: 2rem;
+
+            }
+          }
+        }
+      }
+    }
+  }
+ }
+}

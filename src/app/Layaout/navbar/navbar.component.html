@@ -1,0 +1,43 @@
+<nav class="navbar navbar-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="material-icons-outlined">
+        drag_handle
+        </span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">R</h5>
+        <button type="button" class="navbar-toggler" data-bs-dismiss="offcanvas" aria-label="Close">
+          <span class="material-icons-outlined">
+            west
+            </span>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" [routerLink]="['Inicio']" routerLinkActive="active" >INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  [routerLink]="['Servicios']" routerLinkActive="active" >SERVICIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  [routerLink]="['Equipo']" routerLinkActive="active" >NUESTRO EQUIPO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  [routerLink]="['Portafolio']" routerLinkActive="active" >PORTAFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  [routerLink]="['Contacto']" routerLinkActive="active" >CONTÁCTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  [routerLink]="['Terminos']" routerLinkActive="active" >TÉRMINOS Y CONDICIONES</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

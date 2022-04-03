@@ -1,1 +1,209 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+background-image: url(./assets/fondo.png);
+font-family: 'Dosis', sans-serif;
+}
+
+//Cajas de ingreso y de Registro
+.container {
+  .btns{
+    margin-top: 25vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .caja{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .caja-ingreso{
+      margin-top: 3rem;
+      background: #3A3061;
+      margin-right: 0;
+      margin-left: 0;
+      border-width: 1px;
+      border-radius: 6px;
+      margin-top: 126px;
+      width: 258px;
+    }
+    .caja-registro{
+      background: #3A3061;
+      margin-right: 0;
+      margin-left: 0;
+      border-width: 1px;
+      border-radius: 6px;
+      margin-top: 188px;
+      width: 258px;
+    }
+
+  }
+}
+
+//Componente inputs
+.input-ingreso{
+  background: #3A3061;
+  border-bottom: 1px solid #e3dfdf;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  color:#928b8b;
+  ;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 12px;
+
+
+  &:focus{
+    border: none;
+    border-bottom: 1px solid #F5F5F5;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+
+    &:focus-visible {
+      outline: none;
+  }
+  }
+  }
+
+  //Componente Span del login
+  .span-login{
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 10px;
+  }
+  a.span-login{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+
+//Componente switch
+.switch{
+  margin-top: 12px;
+}
+
+
+//Componente Boton ingreso
+
+.btn-ingreso{
+  margin-top: 30px;
+
+  .btn-ingresar{
+    display: flex;
+    left: 0%;
+    width: 100%;
+    right: 0;
+    margin: auto;
+    background: linear-gradient(90deg, #8DE7ED 2.31%, #2FCEC5 100%);
+    border-radius: 16px ;
+    padding: 7px;
+    border: none;
+    span{
+      display: flex;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #F5F5F5;
+    }
+
+  }
+}
+
+
+.olv-contraseña{
+  margin-top: 12px;
+}
+
+
+//Barra de navegacion - Menu hamburguesa
+.navbar{
+  .container-fluid{
+    .navbar-toggler{
+      .navbar-toggler-icon{
+        background: white;
+      }
+    }
+  }
+}
+
+//Inputs en Error
+.Input-erros{
+border-bottom: 1px solid #2FCCC3;
+}
+.message-invalid{
+  font-size: 7px;
+  display: flex;
+  justify-content: end;
+  color: #2FCCC3;
+
+}
+.material-icons-outlined{
+  font-size: 11px;
+  padding-right: 2px;
+}
+
+
+//Componente switch
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 16px;
+
+}
+
+/* Ocultamos el checkbox html */
+.switch input {
+  display:none;
+}
+
+/* Formateamos la caja del interruptor sobre la cual se deslizará la perilla de control o slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* Pintamos la perilla de control o slider usando el selector before */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 1px;
+  bottom: -2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* Cambiamos el color de fondo cuando el checkbox esta activado */
+input:checked + .slider {
+  background-color: #37D0C8;
+}
+
+/* Deslizamos el slider a la derecha cuando el checkbox esta activado */
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Aplicamos efecto de bordes redondeados en slider y en el fondo del slider */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
