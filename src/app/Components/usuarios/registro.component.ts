@@ -45,7 +45,7 @@ import { UsuarioModel } from '../../Models/usuario.model';
                 <span
                  class="animated fadeIn span-login">EMAIL</span>
                 <div class="wrap-input100 m-b-10">
-                    <input class="input100 input-ingreso" [ngClass]="Registro.submitted && Registro.controls['enail'].errors ? 'Input-erros' :''"
+                    <input class="input100 input-ingreso" [ngClass]="Registro.submitted && Registro.controls['email'].errors ? 'Input-erros' :''"
                            type="email"
                            name="email"
                            [(ngModel)]="usuario.email"
