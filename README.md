@@ -1,5 +1,7 @@
 # Interfaz Usuario
-<img width="892" alt="interfazusuario" src="https://user-images.githubusercontent.com/67086360/161469345-c57b5412-da3a-4a6e-81ba-a37396d907f4.png">
+<img width="666" alt="interfz" src="https://user-images.githubusercontent.com/67086360/161469460-7bfb6f6a-22d5-4983-9447-05bec9010624.png">
+
+<img width="630" alt="Interfazoriginal" src="https://user-images.githubusercontent.com/67086360/161469512-286ed318-5d8b-4d90-848f-3636cf2811d9.png">
 
 
 
