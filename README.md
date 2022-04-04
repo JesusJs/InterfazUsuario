@@ -11,3 +11,4 @@ Prueba tecnica
 - Html5
 - Bootstrap: Version 5.1
 - Google-Fonts
+<img width="534" alt="Registro" src="https://user-images.githubusercontent.com/67086360/161454869-895d8d0c-7d59-4739-b6be-033ceef3a9db.png">
