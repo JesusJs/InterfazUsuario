@@ -5,8 +5,8 @@ Prueba tecnica
 
 ## Lenguajes y Framework
 
-Angular
-Typescript
-Sass
-Html5
-libreria bootstrap
+- Angular
+- Typescript
+- Sass
+- Html5
+- libreria bootstrap
