@@ -5,8 +5,9 @@ Prueba tecnica
 
 ## Lenguajes y Framework
 
-- Angular
+- Angular: Version 12
 - Typescript
-- Sass
+- Sass - Css3
 - Html5
-- libreria bootstrap
+- Bootstrap: Version 5.1
+- Google-Fonts
