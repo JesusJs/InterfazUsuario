@@ -3,6 +3,7 @@
 
 <img width="630" alt="Interfazoriginal" src="https://user-images.githubusercontent.com/67086360/161469512-286ed318-5d8b-4d90-848f-3636cf2811d9.png">
 
+<img width="631" alt="InterfazIngreso" src="https://user-images.githubusercontent.com/67086360/161469593-7c32bf8b-c2e8-4dd3-8ebc-8d434061aafb.png">
 
 
 
